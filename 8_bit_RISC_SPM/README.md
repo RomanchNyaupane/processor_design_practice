@@ -22,6 +22,5 @@ The instruction are of two types : 1 byte and 2 byte instructions
   |  9      |             |
   |  10     | 00110011    |  -->value to be loaded by LDR0 instruction
   |  11     | 01011100    |  -->value to be loaded by LDR1 instruction
-  |  12     |             |  -->location where WR is supposed to write data
-```</pre>
+  |  12     |             |  -->location where WR is supposed to write data ```</pre>
 
