@@ -5,8 +5,8 @@ scheme is state machine based. The opcode format is shown below.\
 <img width="570" height="129" alt="image" src="https://github.com/user-attachments/assets/11a39101-11e3-42f0-b76c-d5ae91101236" />
 
 The instruction are of two types : 1 byte and 2 byte.
-1 byte instructions contains opcode only and no address preceeds it. The insturction like ADD, SUB, NOT, AND are 1 byte instructions. \
-2 byte instructions contain opcode along with address predeeding it. The read, write and branch instructions use 2 byte instructions. \
+1 byte instructions contains opcode only and no address follows it. The insturction like ADD, SUB, NOT, AND are 1 byte instructions. \
+2 byte instructions contain opcode along with address following it. The read, write and branch instructions use 2 byte instructions. \
 ## Example program
 ``` <pre> The following data is written in memory before starting the system.\
   | address | data(binary)|
