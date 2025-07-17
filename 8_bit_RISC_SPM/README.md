@@ -4,7 +4,7 @@ It consists of two 8 bit data bus, 4 registers, 8 bit wide memory (with 8 bit ad
 scheme is state machine based. The opcode format is shown below.\
 <img width="570" height="129" alt="image" src="https://github.com/user-attachments/assets/11a39101-11e3-42f0-b76c-d5ae91101236" />
 
-The instruction are of two types : 1 byte and 2 byte instructions
+The instruction are of two types : 1 byte and 2 byte.
 1 byte instructions contains opcode only and no address preceeds it. The insturction like ADD, SUB, NOT, AND are 1 byte instructions. \
 2 byte instructions contain opcode along with address predeeding it. The read, write and branch instructions use 2 byte instructions. \
 ## Example program
@@ -22,5 +22,7 @@ The instruction are of two types : 1 byte and 2 byte instructions
   |  9      |             |
   |  10     | 00110011    |  -->value to be loaded by LDR0 instruction
   |  11     | 01011100    |  -->value to be loaded by LDR1 instruction
-  |  12     |             |  -->location where WR is supposed to write data ```</pre>
-
+  |  12     |             |  -->location where WR is supposed to write data
+```
+The state machine flow is shown below
+<img width="706" height="441" alt="State diagram risc spm drawio" src="https://github.com/user-attachments/assets/95325bcb-207c-42a0-b90f-ae5b9af350fe" />
