@@ -24,5 +24,5 @@ The instruction are of two types : 1 byte and 2 byte.
   |  11     | 01011100    |  -->value to be loaded by LDR1 instruction
   |  12     |             |  -->location where WR is supposed to write data
 ```
-The state machine flow is shown below
+The state machine flow is shown below \
 <img width="706" height="441" alt="State diagram risc spm drawio" src="https://github.com/user-attachments/assets/95325bcb-207c-42a0-b90f-ae5b9af350fe" />
