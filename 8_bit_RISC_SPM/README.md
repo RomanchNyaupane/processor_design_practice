@@ -8,7 +8,7 @@ The instruction are of two types : 1 byte and 2 byte instructions
 1 byte instructions contains opcode only and no address preceeds it. The insturction like ADD, SUB, NOT, AND are 1 byte instructions. \
 2 byte instructions contain opcode along with address predeeding it. The read, write and branch instructions use 2 byte instructions. \
 ## Example program
-The following data is written in memory before starting the system.\
+``` <pre> The following data is written in memory before starting the system.\
   | address | data(binary)|
   |  0      | 01010000    | --> LDR0 - Load contents of memory location( which is byte at address 1) in register R0
   |  1      | 00001010    | --> memory location which holds value to be loaded at R0
@@ -23,4 +23,5 @@ The following data is written in memory before starting the system.\
   |  10     | 00110011    |  -->value to be loaded by LDR0 instruction
   |  11     | 01011100    |  -->value to be loaded by LDR1 instruction
   |  12     |             |  -->location where WR is supposed to write data
+```</pre>
 
